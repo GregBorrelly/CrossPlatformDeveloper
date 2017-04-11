@@ -1,2 +1,0 @@
-# CrossPlatformDeveloper
-"Personal Portfolio"
