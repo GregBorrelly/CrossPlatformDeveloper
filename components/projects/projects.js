@@ -1,6 +1,6 @@
 angular.module('nycBus').controller('projectsController',['$scope', function($scope){
 
-
+ 
     $scope.projectData = [
 
         {
@@ -43,5 +43,28 @@ angular.module('nycBus').controller('projectsController',['$scope', function($sc
 
 
     ];
+
+
+        $scope.initializeApp = function(){
+
+        $(document).ready(function(){
+            
+            
+       
+              Typed.new('.element', {
+              strings: ["Front End", "Back End"," Full stack", "Cross-Platform Developer"],
+              typeSpeed: 120
+      });
+
+     });
+        
+
+
+    };
+
+
+
+
+
 
 }]);
