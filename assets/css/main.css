@@ -48,6 +48,8 @@ font-family: 'Roboto', sans-serif;
 #ionic{
     padding: 5vh;
     background: black;
+    
+     margin-top: 5px;
 
 }
 
@@ -99,7 +101,7 @@ font-family: 'Roboto', sans-serif;
     background: #E43137;
     color: white;
     font-weight: 700;
-    width: 50vw;
+   
 }
 
 .angular img{
@@ -109,8 +111,9 @@ font-family: 'Roboto', sans-serif;
 
 }
 .electron{
+    margin-top: 5px;
 
-    background-color: #7FC2C9;
+    background-color: darkblue;
     color: white;
     font-weight: 600;
 }
@@ -120,6 +123,11 @@ font-family: 'Roboto', sans-serif;
     min-width: auto;
   
    
+}
+
+.card img{
+    min-height:250px;
+    max-height: 250px;
 }
 
 .card:hover{
@@ -170,10 +178,28 @@ font-family: 'Roboto', sans-serif;
 /*menu-replacement*/
 #menu-replacement{
 
-    min-height:50vh !important; 
-    padding-top: 25vh;
+    min-height:30vh !important; 
+    padding-top: 5vh;
     text-align: center;
 
+}
+
+.menu-item{
+    border: solid 3px #ccc;
+    margin-right: 5vw;
+    margin-bottom: 0;
+    padding: 10px;
+  
+   
+}
+
+.menu-item a{
+     color: darkorange;
+     font-size: 20px;
+     font-weight: bold;
+     
+    
+   
 }
 
 /*Menu*/
@@ -242,3 +268,5 @@ font-family: 'Roboto', sans-serif;
         right: 35px;
     }
 }
+
+
