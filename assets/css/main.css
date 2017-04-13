@@ -66,6 +66,7 @@ font-family: 'Roboto', sans-serif;
 .angular img{
 
     width: 90vh;
+
 }
 .electron{
 
@@ -74,6 +75,11 @@ font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 
+.card{
+    /*min-height: 45vh;*/
+  
+   
+}
 
 .card:hover{
       box-shadow: 10px 10px 5px black;

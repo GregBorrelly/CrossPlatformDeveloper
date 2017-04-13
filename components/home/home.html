@@ -1,29 +1,4 @@
-<script>
-    $(document).ready(function(){
-
-          $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-        
-
-    });
-  </script> 
-
-  <script src="../assets/libs/typed-js/js/typed.js"></script>
-<script>
-
-   $(document).ready(function(){
-
-         Typed.new('.element', {
-        strings: ["Front End", "Back End"," Full stack", "Cross-Platform Developer"],
-        typeSpeed: 120
-      });
-    });
-        
- 
-</script>
-  
-  <div  id="mainDiv" >
+    <div  id="mainDiv" ng-init="initializeApp()">
 
     <div id="text-wrapper">
 
@@ -107,74 +82,6 @@
       </div>
     </div>
   </div>
-
-  <div id="projects">
-
-
-    <h1>Projects</h1>
-    <div class="row">
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="../assets/img/two.png">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-
-         <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="../assets/img/two.png">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-
-         <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image">
-              <img src="../assets/img/two.png">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-                <div class="chip">
-    AngularJS
-   
-  </div>
-        
-              <a href="#">This is a link</a>
-                            <a href="#">This is a link</a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-            
-
-
-      
   
+  <div ng-include="'components/projects/projects.html'"></div>
 
-
-  </div>
-
-   

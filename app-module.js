@@ -1,2 +1,2 @@
-var nycBus = angular.module('nycBus', ['ngRoute']);
+angular.module('nycBus', ['ngRoute']);
 
