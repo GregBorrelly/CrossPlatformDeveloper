@@ -4,6 +4,11 @@ font-family: 'Roboto', sans-serif;
 
 
 }
+
+a{
+
+    color: white !important;
+}
 #mainDiv{
     min-height: 400px;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../img/one.jpg');
@@ -18,6 +23,10 @@ font-family: 'Roboto', sans-serif;
     
 }
 
+.section{
+    padding-top:0px !important; 
+    padding-bottom: 0px !important;
+}
 
 #text-wrapper{
     padding-top: 20vh;
@@ -36,6 +45,7 @@ font-family: 'Roboto', sans-serif;
 
 #cross-platform-dev img {
     width:50vh !important;
+    width: auto;
 }
 
 
@@ -60,39 +70,6 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.code{
-    -webkit-animation: color-change 2s infinite;
-    -moz-animation: color-change 2s infinite;
-    -o-animation: color-change 2s infinite;
-    -ms-animation: color-change 2s infinite;
-    animation: color-change 2s infinite;
-}
-
-@-webkit-keyframes color-change {
-    0% { color: white; }
-    50% { color: orangered; }
-    100% { color: darkorange; }
-}
-@-moz-keyframes color-change {
-  0% { color: white; }
-    50% { color: orangered; }
-    100% { color: darkorange; }
-}
-@-ms-keyframes color-change {
-     0% { color: white; }
-    50% { color: orangered; }
-    100% { color: darkorange; }
-}
-@-o-keyframes color-change {
-     0% { color: white; }
-    50% { color: orangered; }
-    100% { color: darkorange; }
-}
-@keyframes color-change {
-   0% { color: white; }
-    50% { color: orangered; }
-    100% { color: darkorange; }
-}
 
 
 
@@ -138,7 +115,8 @@ font-family: 'Roboto', sans-serif;
 
     background: #2F3242;
     padding: 5vh;
-    
+    min-height: 120vh;
+    margin: 0 !important;    
 }
 
 #projects h1{
@@ -270,3 +248,29 @@ font-family: 'Roboto', sans-serif;
 }
 
 
+#about-me blockquote{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+#about-me {
+
+ 
+    background-color: #07285e;
+    color: white;
+}
+
+#contact-me{
+    background: #ccc;
+    min-height: 20vh;
+    
+    
+    
+
+}
+
+.section{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}

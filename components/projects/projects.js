@@ -47,8 +47,6 @@ angular.module('nycBus').controller('projectsController',['$scope', function($sc
         
 
 
-    };
-
 
 
 
