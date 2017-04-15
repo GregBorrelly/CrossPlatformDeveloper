@@ -1,5 +1,7 @@
 
-body{ font-family: 'Roboto', sans-serif;}
+body{ font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
 
 a{
 
@@ -71,10 +73,9 @@ a{
 
 
 
-.
+
 .card{
-    min-height: 55vh;
-    min-width: auto;
+
   
    
 }
@@ -85,12 +86,12 @@ a{
 }
 
 .card:hover{
-      box-shadow: 10px 10px 5px black;
+      box-shadow: 10px 10px 5px #ccc;
 }
 
 #projects{
 
-    background: #2F3242;
+    background: #f7f7f7;
     padding: 5vh;
     min-height: 120vh;
     margin: 0 !important;    
@@ -226,18 +227,6 @@ a{
 }
 
 
-#about-me blockquote{
-    font-size: 25px;
-    font-weight: 600;
-    
-}
-
-#about-me {
-
- 
-    background-color: #07285e;
-    color: white;
-}
 
 #contact-me{
     background: #ccc;

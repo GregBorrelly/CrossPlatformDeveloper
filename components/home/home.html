@@ -1,11 +1,17 @@
- 
-    <div  id="mainDiv" ng-init="initializeApp()" >
+
+
+<div ng-controller="homeController"  ng-init="initializeApp()"> 
+  
+  <div  id="mainDiv" >
 
     <div id="text-wrapper">
 
        <span style="font-weight: 500;">I'm Greg &<br> I'm a</span>  <div class="element" style="color: darkorange"> </div><br><span style="font-size: 5vh;"> currently working at<br> <span style="color: rebeccapurple">MyKlvr</span> </span> 
 
     </div>
+
+
+    
   </div>
 
 
@@ -34,12 +40,17 @@
 
 
 
+
 <div ng-include="'components/aboutme/aboutme.html'"></div>
-  
-  <!--<div ng-include="'components/projects/projects.html'"></div>-->
-    
+  <div ng-include="'components/skills/skills.html'"></div>
+<div ng-include="'components/projects/projects.html'"></div>
+ <div ng-include="'components/footer/footer.html'"></div>    
 
 
 
   
          
+
+  
+</div> 
+    

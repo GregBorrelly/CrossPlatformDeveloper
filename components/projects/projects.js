@@ -5,7 +5,7 @@ angular.module('nycBus').controller('projectsController',['$scope', function($sc
 
         {
             title:"MyKvlr",
-            img:"../../assets/img/one.jpg",
+            img:"../../assets/img/myk.png",
             des:"This is where description goes",
             git:"github Repo",
 
