@@ -17,6 +17,15 @@ angular.module('nycBus')
 
     })
 
+    .when('/project', {
+
+        templateUrl:"components/project/project.html",
+        controller:"projectController"
+
+
+
+    })
+
 
     .otherwise({
             redirectTo: '/'

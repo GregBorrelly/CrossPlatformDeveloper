@@ -1,0 +1,37 @@
+body{
+        background-color: white !important;
+
+    
+}
+
+.project-title h1, h2, h3, h4{
+    color: darkorange;
+    
+}
+
+.container{
+    margin-top: 10vh;
+    color: black;
+    border: solid 1px  #ccc;
+    padding: 15px;
+    background-color: #f7f7f7 !important;
+    overflow: hidden;
+          
+}
+
+
+p{
+    color: black;
+    font-size: 24px;
+}
+
+#project-link a{
+    color: black !important;
+        font-size: 24px;
+
+}
+
+.project-img img {
+
+    
+}
