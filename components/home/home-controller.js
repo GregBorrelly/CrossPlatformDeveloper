@@ -6,6 +6,7 @@ angular.module('nycBus').controller("homeController", ['$scope', function($scope
             
              $('.parallax').parallax();
              $('ul.tabs').tabs();
+            $('.modal').modal();
        
               Typed.new('.element', {
               strings: ["Front End", "Back End"," Full stack", "Cross-Platform Developer"],

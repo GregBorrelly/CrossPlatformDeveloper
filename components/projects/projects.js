@@ -1,6 +1,13 @@
-angular.module('nycBus').controller('projectsController',['$scope', function($scope){
+angular.module('nycBus')
+.controller('projectsController',['$scope', 'projectFactory', function($scope, projectFactory){
 
- 
+    $scope.setData = function(project){
+            console.log(project);
+
+        projectFactory.addProject(project); 
+    };
+
+
     $scope.projectData = [
 
         {
@@ -44,12 +51,33 @@ angular.module('nycBus').controller('projectsController',['$scope', function($sc
 
     ];
 
+}])
+
+.factory("projectFactory", function(){
+
+    var project = [];
+
+    var addProject = function(newObj){
+        project = [];
+        project.push(newObj);
+
+    };
+
+   var getProject = function(){
+
+
+    return project;
+   };
+
+
+    return {
         
+        addProject: addProject,
+        getProject: getProject
+    };
+
+    
 
 
 
-
-
-
-
-}]);
+});

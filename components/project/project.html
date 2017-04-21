@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="components/project/project.css">
+
+
+<div class="container Project-title" ng-controller="projectController" ng-init="initializeProject()"> 
+  <div class="row" ng-show="loaded === true;">
+    <div class="col s12 center-align ">
+
+       <h1 style="color:darkorange">{{project.title}}</h1>
+
+
+    </div>
+
+     <div class="col s12 center-align project-img">
+
+       <img ng-src="assets/img/{{project.img}}" alt="">  
+
+
+    </div>
+
+      <div class="col s12 ">
+
+        <h4>App Description</h4>
+        <p>{{project.des}}</p>
+
+    </div>
+
+    <div class="col s12 ">
+
+        <h4>Technology Stack</h4>
+
+    </div>
+
+    <div class="col s12 " id="project-link">
+
+        <h4>Github</h4>
+        <a href="#">{{project.git}}</a>
+
+    </div>
+
+
+    <div class="col s12 ">
+
+        <h4>Demo</h4>
+
+    </div>
+
+
+
+
+
+   
+   
+
+
+  
+
+  </div>
+
+  <div ng-show="loaded == false">
+
+    <div class="row">
+
+      <div class="col 12">
+              <h1>IF your seeing this, you pressed the refresh button. Kindly use the back button  and choose a project.</h1> 
+      </div> 
+
+
+    </div>
+
+
+
+  </div>
+  
+
+</div>
+
