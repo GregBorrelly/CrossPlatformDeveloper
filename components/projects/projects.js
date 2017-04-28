@@ -13,8 +13,9 @@ angular.module('nycBus')
         {
             title:"MyKvlr",
             img:"../../assets/img/myk.png",
-            des:"This is where description goes",
+            des:"Mykvlr is a goal setting platform that utilizes artificial intelligence to aid in the abtainment of goals. This platform was designed with large user base in mind, around 500,000+ users.",
             git:"github Repo",
+            stack: ["AngularJS", "Cassandra"]
 
         },
 
