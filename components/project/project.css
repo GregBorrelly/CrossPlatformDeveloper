@@ -1,20 +1,25 @@
 body{
-        background-color: white !important;
+        background-color: #f7f7f7 !important;
 
     
 }
 
+li{
+    float: left;
+}
 .project-title h1, h2, h3, h4{
     color: darkorange;
+    font-size: 24px;
     
 }
 
 .container{
     margin-top: 10vh;
+      margin-bottom: 10vh;
     color: black;
     border: solid 1px  #ccc;
     padding: 15px;
-    background-color: #f7f7f7 !important;
+    background-color: white !important;
     overflow: hidden;
           
 }
@@ -22,7 +27,9 @@ body{
 
 p{
     color: black;
-    font-size: 24px;
+    font-size: 19px;
+
+    
 }
 
 #project-link a{
@@ -33,5 +40,12 @@ p{
 
 .project-img img {
 
-    
+        height: 20vw;
+        border: solid 1px #ccc;
+
+}
+
+.project-detail-container{
+
+    padding: 9vw;
 }

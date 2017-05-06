@@ -1,0 +1,21 @@
+#contributions {
+
+    text-align: center;
+    background: #f7f7f7 !important;
+    padding-bottom:10px; 
+  
+}
+
+#contributions h1 {
+
+    font-size: 30px;
+    font-weight: bold;
+    color: darkorange;
+
+}
+
+#contributions img{
+
+    min-height: 200px;
+    max-height: 200px;
+}
