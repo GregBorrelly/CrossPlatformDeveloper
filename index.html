@@ -1,64 +1,69 @@
-<!doctype html> 
-<html ng-app="nycBus">  
+<!doctype html>
+<html ng-app="nycBus">
 
-    <head>  
+<head>
 
-            <link rel="stylesheet" href="assets/css/main.css">
-            <!-- Production CSS-->
-             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-            <!-- Component Css-->
-             <link rel="stylesheet" href="components/aboutme/aboutme.css">
-              <link rel="stylesheet" href="components/footer/footer.css">
-                <link rel="stylesheet" href="components/contributions/contributions.css">
+    <title>Greg | Web | Developer</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Production CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-            <!-- OffLine Testing CSS-->
-            <!--<link rel="stylesheet" href="assets/libs/materialize/css/materialize.css">-->
-            
-            <!-- offline Testing Javascript-->
+    <!-- Component Css-->
+    <link rel="stylesheet" href="components/aboutme/aboutme.css">
+    <link rel="stylesheet" href="components/footer/footer.css">
+    <link rel="stylesheet" href="components/contributions/contributions.css">
 
-            <!--<script src="assets/libs/jQuery/jquery-3.2.0.min.js"></script>
+    <!-- OffLine Testing CSS-->
+    <!--<link rel="stylesheet" href="assets/libs/materialize/css/materialize.css">-->
+
+    <!-- offline Testing Javascript-->
+
+    <!--<script src="assets/libs/jQuery/jquery-3.2.0.min.js"></script>
             <script src="assets/libs/materialize/js/materialize.js"></script> 
           -->
 
-            <!-- Production Javascript-->
+    <!-- Production Javascript-->
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
-            
-             <!--<script src="assets/libs/Angular/angular.min.js"></script>-->
-           
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
 
-            <script src="assets/libs/Angular/angular.route.js"></script>
-            <script src="../assets/libs/typed-js/js/typed.js"></script>
-            <script src="app-module.js"></script>
-            <script src="app-routes.js"></script>
-
-            <!--Components -->
-            <script src="components/home/home-controller.js"></script>
-            <script src="components/projects/projects.js"></script>
-            <script src="components/project/project.js"></script>
-            <script src="components/navbar/navbar.js"></script>
-            <script src="components/aboutme/aboutme.js"></script>
-
-       
-
-            
-    </head>
-
-    <body >
-
-         <div ng-include="'components/navbar/navbar.html'"></div> 
-
-        <ng-view ></ng-view>
+    <!--<script src="assets/libs/Angular/angular.min.js"></script>-->
 
 
-       
+    <script src="assets/libs/Angular/angular.route.js"></script>
+    <script src="../assets/libs/typed-js/js/typed.js"></script>
+    <script src="app-module.js"></script>
+    <script src="app-routes.js"></script>
 
-            
-        
-    </body>
+    <!--Components -->
+    <script src="components/home/home-controller.js"></script>
+    <script src="components/projects/projects.js"></script>
+    <script src="components/project/project.js"></script>
+    <script src="components/navbar/navbar.js"></script>
+    <script src="components/aboutme/aboutme.js"></script>
+
+
+    <script src="bower_components/ngtweet/dist/ngtweet.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div ng-include="'components/navbar/navbar.html'"></div>
+
+    <ng-view></ng-view>
+
+
+
+
+
+
+</body>
+
 </html>
