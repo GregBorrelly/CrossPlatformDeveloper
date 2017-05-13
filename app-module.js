@@ -1,2 +1,2 @@
-angular.module('nycBus', ['ngRoute', 'ngtweet']);
+angular.module('nycBus', ['ngRoute']);
 
