@@ -1,6 +1,7 @@
 
 body{ font-family: 'Roboto', sans-serif;
     background-color: black;
+    width: 100% !important;
 }
 
 a{
@@ -76,7 +77,8 @@ a{
 
 .card{
 
-  
+height: 400px;
+  border: solid 1px #ccc; 
    
 }
 
@@ -240,4 +242,9 @@ a{
 .section{
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
+}
+
+
+.parallax-container{
+    height: 286px !important;
 }
