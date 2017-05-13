@@ -3,6 +3,10 @@
 
 <div class="container Project-title" ng-controller="projectController" ng-init="initializeProject()">
   <div class="row" ng-show="loaded === true;">
+    
+    <div class="col s12">
+      <button class="btn black" ><a href="/#!/projects">Back</a></button>
+    </div>
     <div class="col s12 center-align ">
 
       <h1 style="color:darkorange">{{project.title}}</h1>
@@ -51,18 +55,21 @@
 
       </div>
 
-      <div class="col s12 " id="project-link">
+      <div class="col s4 " id="project-link">
 
-        <h4>Github</h4>
-        <a href="#">{{project.git}}</a>
+       
+          <i class="fa fa-github-alt" aria-hidden="true"></i>
+          <a href="{{project.git}}" style="color:orangered !important;"> Code</a>
 
       </div>
 
+      <br>
+    </div>
+      <div class="col s4" ng-if="project.demo">
 
-      <div class="col s12 " ng-if="project.demo">
+        <i class="fa fa-desktop" aria-hidden="true"></i>
 
-        <h4>Demo</h4>
-        {{project.demoLink}}
+       <a  style="color:blue !important; font-size:19px !important; " ng-href="{{project.demoLink}}"> Live </a>
 
       </div>
 

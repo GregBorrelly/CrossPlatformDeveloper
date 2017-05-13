@@ -88,13 +88,14 @@ height: 400px;
 }
 
 .card:hover{
-      box-shadow: 10px 10px 5px #ccc;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.51);
+  
 }
 
 #projects{
 
     background: #f7f7f7;
-    padding: 5vh;
+
     min-height: 120vh;
     margin: 0 !important;    
 }
@@ -247,4 +248,8 @@ height: 400px;
 
 .parallax-container{
     height: 200px !important;
+}
+
+.card{
+    background: rgba(211, 211, 211, 0.72) !important;
 }

@@ -23,12 +23,13 @@ angular.module('nycBus')
 
 
         {
-            title:"MTA Bus Tracker",
-            img:"../../assets/img/bus.jpg",
-            des:"This is where description goes",
+            title:"Lift NYC",
+            img:"../../assets/img/nyclift.png",
+            des:"This application allows new yorkers to have access to their benefits.",
             git:"github Repo",
-            stack: ["AngularJS", "Cassandra", "MaterializeCSS"],
-            demo:false,
+            stack: ["AngularJS", "Cassandra", "MaterializeCSS", "NYC OPEN DATA"],
+            demo:true,
+            demoLink:"https://liftnyc.herokuapp.com/"
 
         },
 
@@ -43,13 +44,13 @@ angular.module('nycBus')
         },
 
           {
-            title:"LI Calendar",
-            img:"../../assets/img/lical.png",
-            des:"A simple calendar made using CSS only.",
-            git:"https://github.com/GregBorrelly/Calendar",
+            title:"Quixotic",
+            img:"../../assets/img/angular.png",
+            des:"A open source Agile Developement tool set to dirsrupt tools such as Jhira.",
+            git:"https://github.com/QuixoticOS/QX",
             stack: ["CSS", "HTML"],
-            demo:true,
-            demoLink:"https://gregborrelly.github.io/Calendar/months/march.html",
+            demo:false,
+            demoLink:"",
 
         },
 
