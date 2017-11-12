@@ -1,19 +1,20 @@
 {
-  "name": "crossplatformdeveloper",
+  "name": "crossplatformdeveloper-master",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "http-server -c-1 -p 61116"
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "livereload": "live-reload --port 9091 /index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GregBorrelly/CrossPlatformDeveloper.git"
-  },
-  "author": "Greg Borrelly",
+  "author": "Greg",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GregBorrelly/CrossPlatformDeveloper/issues"
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.12.1"
   },
-  "homepage": "https://github.com/GregBorrelly/CrossPlatformDeveloper#readme"
+  "dependencies": {
+    "live-reload": "^1.1.0"
+  }
 }

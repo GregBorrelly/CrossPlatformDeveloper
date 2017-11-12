@@ -1,72 +1,282 @@
-<!doctype html>
-<html ng-app="nycBus">
-
+<<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 
-
-    <title>Greg | Web | Developer</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- Production CSS-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Component Css-->
-    <link rel="stylesheet" href="components/navbar/navbar.css">
-    <link rel="stylesheet" href="components/aboutme/aboutme.css">
-    <link rel="stylesheet" href="components/footer/footer.css">
-    <link rel="stylesheet" href="components/contributions/contributions.css">
-    
-
-    <!-- OffLine Testing CSS-->
-    <!--<link rel="stylesheet" href="assets/libs/materialize/css/materialize.css">-->
-
-    <!-- offline Testing Javascript-->
-
-    <script src="assets/libs/jQuery/jquery-3.2.0.min.js"></script>
-
-
-    <!-- Production Javascript-->
-    <!--
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>-->
-
-    <!--<script src="assets/libs/Angular/angular.min.js"></script>-->
-
-    <script src="assets/libs/Angular/angular.min.js"></script>
-    <script src="assets/libs/Angular/angular.route.js"></script>
-
-
-
-    <script src="../assets/libs/typed-js/js/typed.js"></script>
-    <script src="app-module.js"></script>
-    <script src="app-routes.js"></script>
-
-    <!--Components -->
-    <script src="components/home/home-controller.js"></script>
-    <script src="components/projects/projects.js"></script>
-    <script src="components/project/project.js"></script>
-    <script src="components/navbar/navbar.js"></script>
-    <script src="components/aboutme/aboutme.js"></script>
-
-
-
-
-
+    <link rel="stylesheet" href="public/css/main.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!-- or -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
-    <div ng-include="'components/navbar/navbar.html'"></div>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>   
+        <div id="social-media">
+                <ul >
+                        <li>
+                            <a href="">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    
+                            </a>
+                        </li>
+                        <li>
+                                <a href="">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                        
+                                </a>
+                            </li>
+                            <li>
+                                    <a href="">
+                                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                            
+                                    </a>
+                                </li>
+                                <li>
+                                        <a href="">
+                                                <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                                
+                                        </a>
+                                    </li>   
+                    </ul>
+        </div>
+        
+    </nav>
+    
+    <header>
+        <div class="content">
+                <h1>Don't Get Lost</h1><h1> in the crowd</h1>
+                <p>Make your project <span class="animated infinite bounce">Unique</span>,  avoid <span >falling</span> into the the pit of indifference.</p>
+        </div>
 
-    <ng-view></ng-view>
+        <div class="city">
+                <div class='landscape'>
+                        <div class='inner'>
+                          <div class='moon'></div>
+                          <div class='cityscape'>
+                            <div class='building'>
+                              <div class='windows'></div>
+                              <div class='radio'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                              <div class='radio'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                              
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                              
+                              
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                              
+                            </div>
+                            <div class='building'>
+                                    <div class='windows'></div>
+                                    
+                                  </div>
+                                  <div class='building'>
+                                        <div class='windows'></div>
+                                        
+                                      </div>
+                                      <div class='building'>
+                                            <div class='windows'></div>
+                                          </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                            <div class='building'>
+                              <div class='windows'></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='foreground'>
+                        <div class='inner'>
+                          <div class='welcome'>
+                            <h1>
+                              
+                            </h1>
+                            <h2>
+                              <span>Stand Out</span> 
+                            </h2>
+                          </div>
+                          <div class='trees'>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                            <div class='tree'></div>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+    </header>
+    <section id="services">
+        <div class="entry">
+                <h1 >Hi, my name is Greg. I create beautiful & functional websites for small businesses. <br> Below are a few services I provide:</h1>
+        </div>
+        <div class="container text">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="" alt="">
+                        <h1>WEBSITE DESIGN</h1>
+                        <p>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                            so i have another 9 columns more i can create and after that i will have to declare another 
+                            "row " class , though I can declare the new row class in the same container 
+                        </p>
+                    </div>  
+                
+                    <div class="col-md-3">
+                            <h1>WEBSITE DESIGN</h1>
+                            <p>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                                so i have another 9 columns more i can create and after that i will have to declare another 
+                                "row " class , though I can declare the new row class in the same container 
+                            </p>
+                    </div>  
+                
+                    <div class="col-md-3">
+                            <h1>WEB DEVELOPMENT</h1>
+                            <p>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                                so i have another 9 columns more i can create and after that i will have to declare another 
+                                "row " class , though I can declare the new row class in the same container 
+                            </p>
+                    </div>  
+                
+                    <div class="col-md-3">
+                            <h1>Game Development</h1>
+                            <p>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                                so i have another 9 columns more i can create and after that i will have to declare another 
+                                "row " class , though I can declare the new row class in the same container 
+                            </p>
+                    </div>  
+                
+                    <!-- now that we have used up all the 12 coloumbs in this row , lets go create a new "row class" , Alas in the same container -->
+                </div>  <!-- end of row -->
+                
+             
+                </div>  <!-- end of container -->
+    </section>
+    <section id="about">
+            <div class="">
+                    <div class="row">
+                        <div class="col-md-6">
+                                <img src="assets/img/Facetune.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                                <h1>About Me</h1>
+                                <p>hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 
+                                        so i have another 9 columns more i can create and after that i will have to declare another 
+                                        "row " class , though I can declare the new row class in the same container 
+                                    
+                                        hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 so i have another 9 columns more i can create and after that i will have to declare another "row " class , though I can declare the new row class in the same container
+                                        hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 so i have another 9 columns more i can create and after that i will have to declare another "row " class , though I can declare the new row class in the same container
+                                        hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 so i have another 9 columns more i can create and after that i will have to declare another "row " class , though I can declare the new row class in the same container
+                                        hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 so i have another 9 columns more i can create and after that i will have to declare another "row " class , though I can declare the new row class in the same container
+                                        hey hey i span 3 coloumbs and bootstrap allows a maximum of 12 so i have another 9 columns more i can create and after that i will have to declare another "row " class , though I can declare the new row class in the same container
+                                    
+                                    </p>
+                        </div>
+                    </div>  
+            </div>  
+            
+    </section>
+    <div>
 
+    </div>
+    <footer>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+        <h1>Get In Touch</h1>
+        <p>I am not currently taking on new clients. However, if you have another inquiry or have a project you think I'd just die to do, send me an email below</p>
+        <button> <a href="mailto:gregborrelly@gmail.com">SEND AN EMAIL</a></button>
+        
 
-
-
-
-
+        </div>
+        </div>
+        </div>
+    </footer>
 </body>
-
 </html>
