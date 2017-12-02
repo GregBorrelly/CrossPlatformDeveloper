@@ -619,7 +619,7 @@ header{
 }
 
 #services{
-    height: 555px;
+    height: 615px;
     background: #3C454C;
     overflow:hidden;
     .text{
@@ -629,14 +629,24 @@ header{
     h1{
         font-size:19px;
         color:white;
+        margin-top:80px;
     }
 
     p{
         color:white;
     }
+
+    img{
+      height: 149px;
+      position: absolute;
+      top: -86px;
+      left: 40px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .entry{
         background: #151818;
-        height: 263px;
+        height: 315px;
 
         h1{
             margin: 0px auto;
