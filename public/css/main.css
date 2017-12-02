@@ -511,10 +511,11 @@ header {
 
 #about {
   height: 522px;
-  background: white; }
+  background: #1B1E1E;
+  overflow: hidden; }
   #about h1 {
     font-family: 'Merienda One', cursive;
-    color: #212020;
+    color: white;
     font-size: 60px;
     margin-top: 50px; }
   #about p {
@@ -525,6 +526,8 @@ header {
   #about img {
     height: 522px;
     width: 47vw; }
+  #about iframe {
+    margin-top: 3%; }
 
 footer {
   height: 709px;
@@ -572,3 +575,53 @@ footer {
     footer button:hover a:hover {
       color: inherit;
       text-decoration: none; }
+
+#work {
+  background: #3D464D;
+  height: 1217px;
+  overflow: hidden; }
+  #work .content-container {
+    max-width: 1507px;
+    margin-left: auto;
+    margin-right: auto; }
+  #work img {
+    height: 368px;
+    width: 100%; }
+  #work .nopadding {
+    padding: 3px; }
+  #work .overlay {
+    position: absolute;
+    height: 368px;
+    background: rgba(0, 0, 0, 0.39);
+    z-index: 2;
+    width: 99%; }
+    #work .overlay h1 {
+      color: white;
+      margin-top: 115px;
+      text-align: center;
+      font-size: 39px;
+      font-family: 'Spectral SC', serif; }
+    #work .overlay p {
+      color: white;
+      font-weight: 400;
+      text-align: center; }
+  #work .overlay:hover {
+    background: #1B1E1E; }
+  #work .client:hover .overlay {
+    z-index: 0; }
+
+.topic {
+  height: 500px;
+  background: black;
+  overflow: hidden; }
+  .topic h1 {
+    font-family: 'Aladin', cursive;
+    text-align: center;
+    font-size: 65px;
+    color: #00E6F2; }
+  .topic p {
+    color: #bdbdbd;
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }

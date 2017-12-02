@@ -662,11 +662,12 @@ header{
 
 #about{
     height: 522px;
-    background: white;
+    background: #1B1E1E;
+    overflow:hidden;
 
     h1{
         font-family: 'Merienda One', cursive;
-        color: #212020;
+        color: white;
         font-size: 60px;
         margin-top: 50px;
     }
@@ -679,6 +680,10 @@ header{
     img{
         height: 522px;
         width: 47vw;
+    }
+
+    iframe{
+      margin-top: 3%;
     }
 }
 
@@ -737,6 +742,82 @@ footer{
             text-decoration:none;
         }
     }
+
+
+
     }
 
 
+#work{
+  background: #3D464D;
+  height: 1217px;
+  overflow: hidden;
+
+  .content-container{
+    max-width: 1507px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img{
+    height: 368px;
+    width: 100%;
+  }
+
+  .nopadding{
+    padding:3px;
+  }
+
+  .overlay{
+    position: absolute;
+    height: 368px;
+    background: rgba(0, 0, 0, 0.39);
+    z-index: 2;
+    width: 99%;
+
+      h1{
+        color: white;
+        margin-top: 115px;
+        text-align: center;
+        font-size: 39px;
+        font-family: 'Spectral SC', serif;
+      }
+      p{
+        color: white;
+        font-weight: 400;
+        text-align: center;
+      }
+     
+  }
+  .overlay:hover{
+    background:#1B1E1E;
+  }
+  
+  .client:hover{
+  
+    .overlay{
+      z-index:0;
+    }
+  }
+}
+
+.topic{
+  height:500px;
+  background:black;
+  overflow:hidden;
+
+  h1{
+    font-family: 'Aladin', cursive;
+    text-align: center;
+    font-size: 65px;
+    color: #00E6F2;
+    
+  }
+
+  p{
+    color: #bdbdbd;
+    font-size: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
