@@ -1,0 +1,20 @@
+{
+  "name": "crossplatformdeveloper-master",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Greg"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/GregBorrelly/CrossPlatformDeveloper",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "aos": "^2.2.0"
+  }
+}
