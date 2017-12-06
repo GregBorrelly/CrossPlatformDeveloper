@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Codystar");
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: black; }
 
 nav {
   height: 70px;
@@ -503,11 +504,14 @@ header {
     #services .entry h1 {
       margin: 0px auto;
       font-size: 28px;
-      color: #11e7fd;
+      color: #33495E;
       text-align: center;
       font-weight: 300;
       line-height: 40px;
       padding-top: 71px; }
+  @media only screen and (max-width: 772px) {
+    #services {
+      display: none; } }
 
 #about {
   height: 522px;
@@ -524,10 +528,42 @@ header {
     font-size: 16px;
     color: #888888; }
   #about img {
-    height: 522px;
-    width: 47vw; }
+    height: 489px;
+    width: 100%;
+    max-width: 681px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-top: 15px; }
   #about iframe {
     margin-top: 3%; }
+  #about ul {
+    font-size: 21px; }
+    #about ul li {
+      color: #FF5053; }
+      #about ul li p {
+        color: #787979;
+        font-size: 16px; }
+  @media only screen and (max-width: 995px) {
+    #about {
+      height: unset;
+      padding-bottom: 94px; }
+      #about img {
+        height: 344px;
+        width: 100%;
+        max-width: 549px;
+        margin-left: auto;
+        display: block;
+        margin-right: auto;
+        margin-top: 15px; }
+      #about h1 {
+        text-align: center; }
+      #about p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 82%; }
+      #about ul {
+        list-style: none; } }
 
 footer {
   height: 709px;
@@ -575,11 +611,59 @@ footer {
     footer button:hover a:hover {
       color: inherit;
       text-decoration: none; }
+  @media only screen and (max-width: 600px) {
+    footer {
+      height: 463px; }
+      footer h1 {
+        font-family: 'Merienda One', cursive;
+        line-height: 59px;
+        font-size: 54px;
+        color: white;
+        margin-top: 40px;
+        text-align: center;
+        line-height: 77px; }
+      footer button {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px 0px 5px 0px;
+        background-color: #202323;
+        height: auto;
+        font-size: 14px;
+        line-height: 50px;
+        font-family: 'Merienda One', cursive;
+        color: white;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        -webkit-appearance: none;
+        width: 45%;
+        /* margin: 0px 5% 0px 5%; */
+        display: block;
+        margin-top: 37px; }
+      footer p {
+        color: gray;
+        font-size: 19px;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px; } }
 
 #work {
   background: #3D464D;
-  height: 1217px;
-  overflow: hidden; }
+  /* height: 1370px; */
+  overflow: hidden;
+  padding-top: 15.1px;
+  padding-bottom: 150px; }
+  #work h1 {
+    font-size: 67px;
+    text-align: center;
+    color: white;
+    margin-bottom: 32px;
+    font-family: 'Spectral SC', serif;
+    margin-top: 37px; }
   #work .content-container {
     max-width: 1507px;
     margin-left: auto;
@@ -592,7 +676,7 @@ footer {
   #work .overlay {
     position: absolute;
     height: 368px;
-    background: rgba(0, 0, 0, 0.39);
+    background: rgba(27, 30, 30, 0.529412);
     z-index: 2;
     width: 99%; }
     #work .overlay h1 {
@@ -606,9 +690,20 @@ footer {
       font-weight: 400;
       text-align: center; }
   #work .overlay:hover {
-    background: #1B1E1E; }
+    cursor: pointer; }
   #work .client:hover .overlay {
     z-index: 0; }
+  @media only screen and (max-width: 1000px) {
+    #work img {
+      height: 507px; }
+    #work h1 {
+      margin-top: 152px; }
+    #work .overlay {
+      position: absolute;
+      height: 507px;
+      background: rgba(27, 30, 30, 0.529412);
+      z-index: 2;
+      width: 100%; } }
 
 .topic {
   height: 500px;
@@ -625,3 +720,60 @@ footer {
     width: 80%;
     margin-left: auto;
     margin-right: auto; }
+  @media only screen and (max-width: 600px) {
+    .topic {
+      display: none; } }
+
+@media only screen and (max-width: 1400px) {
+  header .city .inner {
+    position: relative;
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 406px; } }
+
+@media only screen and (max-width: 1200px) {
+  header .city .inner {
+    position: relative;
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 0px; } }
+
+@media only screen and (max-width: 1000px) {
+  #services img {
+    height: 119px;
+    position: absolute;
+    top: -86px;
+    left: 40px;
+    margin-left: auto;
+    margin-right: auto; }
+  #services h1 {
+    font-size: 19px;
+    color: white;
+    margin-top: 56px; }
+  #services .entry h1 {
+    margin: 0px auto;
+    font-size: 21px;
+    color: #11e7fd;
+    text-align: center;
+    font-weight: 300;
+    line-height: 26px;
+    padding-top: 68px; } }
+
+@media only screen and (max-width: 821px) {
+  #social-media {
+    display: block; } }
+
+@media only screen and (max-width: 500px) {
+  header .city .inner {
+    position: relative;
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: -496px; }
+  header h1 {
+    font-family: 'Merienda One', cursive;
+    line-height: 28px;
+    font-size: 44px;
+    color: #00E5FC; } }
